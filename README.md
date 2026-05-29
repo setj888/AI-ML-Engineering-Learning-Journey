@@ -13,10 +13,12 @@ and projects as I build the skills for the transition.
 
 ### Months 1-3: Foundations
 - [x] Python for Data Science, AI & Development (IBM)
+- [ ] Databases and SQL for Data Science with Python
 - [ ] Mathematics for Machine Learning (Imperial College London)
 - [ ] Andrew Ng's Machine Learning Specialization
 - [ ] SQL fundamentals (Mode/SQLZoo)
 - [ ] From-scratch implementations: logistic regression, decision tree, neural net
+      
 
 ### Months 4-6: Deep Learning & PyTorch
 - [ ] fast.ai Practical Deep Learning for Coders
