@@ -1,8 +1,7 @@
 # AI/ML Engineering Learning Journey
 
-A self-directed path from mechanical engineering (BEng, University of Warwick) 
-toward applied AI/ML engineering. This repo tracks my courses, notes, exercises, 
-and projects as I build the skills for the transition.
+My structured path from mechanical engineering + food manufacturing NPD into applied machine learning — combining coursework, a real deployed ML project
+Focus: applied ML for manufacturing — demand forecasting, predictive maintenance, and process optimisation.
 
 ## Background
 - BEng Mechanical Engineering, University of Warwick
@@ -11,29 +10,50 @@ and projects as I build the skills for the transition.
 
 ## Roadmap
 
-### Months 1-3: Foundations
-- [x] Python for Data Science, AI & Development (IBM)
-- [x] Databases and SQL for Data Science with Python
-- [x] Mathematics for Machine Learning (Imperial College London)
-- [ ] Andrew Ng's Machine Learning Specialization
-- [ ] SQL fundamentals (Mode/SQLZoo)
-- [ ] From-scratch implementations: logistic regression, decision tree, neural net
-      
+## ✅ Phase 0 — Foundations (complete)
 
-### Months 4-6: Deep Learning & PyTorch
-- [ ] fast.ai Practical Deep Learning for Coders
-- [ ] PyTorch fundamentals
-- [ ] First end-to-end project: image classifier deployed as API
+- [x] IBM: Python for Data Science
+- [x] IBM: Databases and SQL for Data Science with Python
+- [x] Mathematics for Machine Learning
+- [x] Andrew Ng ML Specialization — Course 1: Supervised ML (Regression & Classification)
+- [x] Published [Course 1 study-reference notebook](./Course1_Study_Reference.ipynb) — from-scratch NumPy + scikit-learn, predictive-maintenance themed
 
-### Months 7-9: LLMs and Fine-Tuning
-- [ ] Hugging Face NLP Course
-- [ ] Karpathy's "Neural Networks: Zero to Hero"
-- [ ] Fine-tuning project (LoRA/QLoRA on a small open model)
+## 🔨 Phase 1 — Core ML + Project V1 (→ Oct 2026)
 
-### Months 10-12: MLOps & Capstone
-- [ ] MLOps for Production (DeepLearning.AI)
-- [ ] Docker, one cloud provider (AWS or GCP)
-- [ ] Capstone project: end-to-end deployed system
+- [ ] ML Specialization — Course 2: Advanced Learning Algorithms
+- [ ] Course 2 study-reference notebook published
+- [ ] **Ingredient & Stock App V1** — design data model & start build
+- [ ] Record baseline operational metrics (waste %, stock-outs, manual-count hours)
+- [ ] Deploy V1 to live daily use & begin collecting historical usage data
+- [ ] Iterate V1 with real user feedback
+- [ ] ML Specialization — Course 3: Unsupervised Learning, Recommenders & RL
+- [ ] Course 3 study-reference notebook published
+- [ ] 🎓 **ML Specialization complete**
+
+## 🚀 Phase 2 — Applied ML, MLOps + Project V2 (Oct 2026 → Jan 2027)
+
+- [ ] Applied Machine Learning course
+- [ ] Applied MLOps course — experiment tracking, pipelines, monitoring
+- [ ] **App V2: ingredient demand forecasting** — simple baseline model first
+- [ ] Beat the baseline with an ML model; integrate into the app
+- [ ] Measure impact vs. Phase 1 baseline (forecast accuracy / waste reduction / hours saved)
+- [ ] Publish full project case study (problem → data → model → deployment → results)
+- [ ] *(Optional)* AWS AI Practitioner certification
+- [ ] *(Optional)* IBM Applied AI Professional Certificate
+- [ ] Pin key repos + polish GitHub profile README
+
+## 🏁 Phase 4 — Launch (Feb 2027 →)
+
+- [ ] Re-run study notebooks & rebuild one model end-to-end
+- [ ] ML fundamentals interview prep (bias/variance, regularisation, evaluation)
+- [ ] Timed SQL + Python coding practice
+- [ ] *(Optional)* PyTorch fundamentals
+- [ ] Begin applying to applied ML / data roles in manufacturing, food & supply chain 🎯
+
+---
+
+*Principles: portfolio over certificates · from-scratch before frameworks · ship real things.*
+
 
 ## Repo Structure
 Each numbered folder corresponds to a course or project phase, with notes, 
